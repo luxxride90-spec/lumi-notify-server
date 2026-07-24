@@ -1,0 +1,14 @@
+{
+  "name": "lumi-notify-server",
+  "version": "1.0.0",
+  "description": "Server i vogël që dërgon njoftime push reale për LUMI përmes Firebase Cloud Messaging.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.5",
+    "firebase-admin": "^12.1.0"
+  }
+}
